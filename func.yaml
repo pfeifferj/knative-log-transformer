@@ -1,0 +1,8 @@
+specVersion: 0.35.0
+name: knative-log-transformer
+runtime: typescript
+created: 2024-02-22T19:26:24.409977614+01:00
+build:
+  buildEnvs:
+  - name: BP_NODE_RUN_SCRIPTS
+    value: build
